@@ -10,6 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        
+        //Adding listener to the dial view
         myDialView.listener = object : OnValueChangeListener {
             override fun speed(num: String) {
                 println("current speed $num")
