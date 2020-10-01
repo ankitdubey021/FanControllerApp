@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--Parent Contatiner-->
 <LinearLayout
     android:gravity="center"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -9,6 +10,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!--Text View to Display text-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,6 +21,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--Adding Dial View to the Main View Of Activity-->
     <com.ebabu.fancontrollerapp.DialView
         android:id="@+id/myDialView"
         android:layout_width="200dp"
